@@ -1,43 +1,54 @@
 Name: myOptixproject
+Id: g=2595165b3f65666a28f6af794e5c695d
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=603379f88ed8c56bb6d7f1e9996a25ae
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=6a303e86e35258beee75efa651070351
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=c24dcb4ed5b545713771ec49bc9de007
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=72a48e426fd42b3554929b7d38562790
   Type: PropertyGroup
 - Name: PasswordPolicy
+  Id: g=94f287e1323438ec8363bd2f2e9efbc4
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=247cf8e12f86f52418c23d92c905f486
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=d84e7d05c937e0cf1d99d7369ea8efe4
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=d92e7801a32504f76f31958acc1b9f0e
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=7b23e984a61462464074b9348cf33e1c
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=72f5cc65a27db85aae0743e22e2018bc
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
